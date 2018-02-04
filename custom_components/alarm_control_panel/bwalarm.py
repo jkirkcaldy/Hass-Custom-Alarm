@@ -38,25 +38,25 @@ SUPPORTED_STATES             = [STATE_ALARM_ARMED_AWAY, STATE_ALARM_ARMED_HOME,
                                 STATE_ALARM_ARMED_PERIMETER]
 
 #//-------------------STATES TO CHECK------------------------------
-STATE_TRUE                         = 'true'
-STATE_UNLOCKED                     = 'unlocked'
-STATE_OPEN                         = 'open'
-STATE_DETECTED                     = 'detected'
-STATE_MOTION                       = 'motion'
-STATE_MOTION_DETECTED              = 'motion_detected'
-STATE_MOTION_DETECTED2             = 'motion detected'
+#STATE_TRUE                         = 'true'
+#STATE_UNLOCKED                     = 'unlocked'
+#STATE_OPEN                         = 'open'
+#STATE_DETECTED                     = 'detected'
+#STATE_MOTION                       = 'motion'
+#STATE_MOTION_DETECTED              = 'motion_detected'
+#STATE_MOTION_DETECTED2             = 'motion detected'
 
-STATE_FALSE                        = 'false'
-STATE_LOCKED                       = 'locked'
-STATE_CLOSED                       = 'closed'
-STATE_UNDETECTED                   = 'undetected'
-STATE_NO_MOTION                    = 'no_motion'
-STATE_STANDBY                      = 'standby'
+#STATE_FALSE                        = 'false'
+#STATE_LOCKED                       = 'locked'
+#STATE_CLOSED                       = 'closed'
+#STATE_UNDETECTED                   = 'undetected'
+#STATE_NO_MOTION                    = 'no_motion'
+#STATE_STANDBY                      = 'standby'
 
-CONF_CUSTOM_SUPPORTED_STATUSES_ON  = 'custom_supported_statuses_on'
-CONF_CUSTOM_SUPPORTED_STATUSES_OFF = 'custom_supported_statuses_off'
-SUPPORTED_STATUSES_ON              = [STATE_ON, STATE_TRUE, STATE_UNLOCKED, STATE_OPEN, STATE_DETECTED, STATE_MOTION, STATE_MOTION_DETECTED, STATE_MOTION_DETECTED2]
-SUPPORTED_STATUSES_OFF             = [STATE_OFF, STATE_FALSE, STATE_LOCKED, STATE_CLOSED, STATE_UNDETECTED, STATE_NO_MOTION, STATE_STANDBY]
+#CONF_CUSTOM_SUPPORTED_STATUSES_ON  = 'custom_supported_statuses_on'
+#CONF_CUSTOM_SUPPORTED_STATUSES_OFF = 'custom_supported_statuses_off'
+#SUPPORTED_STATUSES_ON              = [STATE_ON, STATE_TRUE, STATE_UNLOCKED, STATE_OPEN, STATE_DETECTED, STATE_MOTION, STATE_MOTION_DETECTED, STATE_MOTION_DETECTED2]
+#SUPPORTED_STATUSES_OFF             = [STATE_OFF, STATE_FALSE, STATE_LOCKED, STATE_CLOSED, STATE_UNDETECTED, STATE_NO_MOTION, STATE_STANDBY]
 
 #//-----------------YAML CONFIG OPTIONS----------------------------
 CONF_PANIC_CODE              = 'panic_code'
@@ -64,12 +64,12 @@ CONF_PASSCODE_ATTEMPTS       = 'passcode_attempts'
 CONF_PASSCODE_ATTEMPTS_TIMEOUT = 'passcode_attempts_timeout'
 
 #//-------------------SENSOR GROUPS--------------------------------
-CONF_IMMEDIATE               = 'immediate'
-CONF_DELAYED                 = 'delayed'
-CONF_IGNORE                  = 'homemodeignore'
-CONF_NOTATHOME               = 'notathome'
-CONF_OVERRIDE                = 'override'
-CONF_PERIMETER               = 'perimeter'
+#CONF_IMMEDIATE               = 'immediate'
+#CONF_DELAYED                 = 'delayed'
+#CONF_IGNORE                  = 'homemodeignore'
+#CONF_NOTATHOME               = 'notathome'
+#CONF_OVERRIDE                = 'override'
+#CONF_PERIMETER               = 'perimeter'
 
 #//-----------------DEVICES TO ENABLE/DISBALE-----------------------
 CONF_ALARM                   = 'alarm'
@@ -81,7 +81,7 @@ CONF_MQTT                    = 'mqtt'
 CONF_CLOCK                   = 'clock'
 CONF_WEATHER                 = 'weather'
 CONF_SETTINGS                = 'settings'
-CONF_HIDE_ALL_SENSORS        = 'hide_all_sensors'
+#CONF_HIDE_ALL_SENSORS        = 'hide_all_sensors'
 CONF_HIDE_SIDEBAR            = 'hide_sidebar'
 
 #//-----------------------COLOURS------------------------------------
